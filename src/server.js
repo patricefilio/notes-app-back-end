@@ -1,6 +1,6 @@
-import Hapi from '@hapi/hapi';
+const Hapi = require('@hapi/hapi');
 
-import routes from './routes';
+const routes = require('./routes');
 
 const init = async () => {
   const server = Hapi.server({
